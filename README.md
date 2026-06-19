@@ -44,6 +44,7 @@ Some actions are **permanent** and may remove:
 - ✅ The script asks for confirmation on sensitive actions
 - ⚠️ Some actions cannot be undone
 - ⚠️ You should review tasks before running **ALL** tasks
+- ⚠️ After reviewing generated log files, it is recommended to delete old logs so they do not pile up over time
 
 **Use at your own risk.**
 
@@ -145,6 +146,9 @@ cleanup_YYYYMMDD_HHMMSS.log
 ```
 
 Perfect for checking what happened during cleanup. 📂
+
+### ⚠️ Log Cleanup Warning
+After you review the logs, it is recommended to delete older log files from the log folder so they do not build up and take unnecessary space over time.
 
 ---
 
@@ -338,7 +342,8 @@ If you want the smoothest and safest first run:
    - `14`
    - `15`
 8. Review the logs after completion
-9. Explore the heavier cleanup tasks later
+9. Delete older logs you no longer need so they do not pile up
+10. Explore the heavier cleanup tasks later
 
 ---
 
