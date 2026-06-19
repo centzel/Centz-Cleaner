@@ -1,3 +1,26 @@
+# ⚠️ DISCLAIMER — READ THIS FIRST ⚠️
+
+**CENTZ CLEANER performs real, permanent cleanup actions on Windows systems.**
+By using this project, you understand that some actions may permanently remove files, caches, restore history, rollback data, logs, backups, downloads, and other local system data. Some actions cannot be undone.
+
+## Use at Your Own Risk
+- You are fully responsible for anything this tool changes, deletes, or affects on your device.
+- You should review every cleanup feature before running aggressive options.
+- You should avoid using **Run ALL** unless you understand the impact of each task.
+- After reviewing generated logs, it is recommended to delete old logs so they do not pile up over time.
+
+## Personal Use Only
+This project is provided for **personal, private, non-commercial use only**.
+
+**Commercial use is not authorized.** Any business, paid, resale, redistribution-for-profit, service-based, hosted, packaged, bundled, or other commercial use of this project is not permitted.
+
+## No Warranty
+This software is provided **as-is**, without warranties or guarantees of any kind.
+
+By using this repository, you agree that the author is not responsible for data loss, system issues, software conflicts, or any other damages resulting from the use or misuse of this project.
+
+---
+
 # 🧼✨ CENTZ CLEANER — The Ultimate Windows Cleanup Utility ✨🧼
 
 Welcome to **CENTZ CLEANER - PS Edition** — a powerful Windows cleanup tool built to help you clear junk, free up space, and give your PC a cleaner, smoother experience. 🚀💻
@@ -24,29 +47,6 @@ CENTZ CLEANER can help clean and manage:
 - 🧷 Old `.bak` backup files
 - 📁 AppData folders matching `*Digital*`
 - ...and more ✅
-
----
-
-## ⚠️ IMPORTANT WARNING
-
-This script performs **real system cleanup actions**.
-Some actions are **permanent** and may remove:
-
-- backup files
-- restore history
-- cached app/browser data
-- rollback data
-- old downloads
-- crash dumps
-
-### Please read this carefully:
-- ✅ A restore point is attempted before cleanup begins
-- ✅ The script asks for confirmation on sensitive actions
-- ⚠️ Some actions cannot be undone
-- ⚠️ You should review tasks before running **ALL** tasks
-- ⚠️ After reviewing generated log files, it is recommended to delete old logs so they do not pile up over time
-
-**Use at your own risk.**
 
 ---
 
@@ -369,11 +369,3 @@ CENTZ CLEANER is built for users who want:
 - a more guided cleanup experience 🛠️
 
 If you use it carefully, it can be a handy all-in-one cleanup utility for Windows. ✨
-
----
-
-## 📌 Disclaimer
-
-This project performs permanent cleanup tasks on a Windows machine. Always review what you are running before using aggressive cleanup options.
-
-**You are responsible for any changes made to your system.**
